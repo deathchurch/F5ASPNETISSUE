@@ -1,0 +1,1404 @@
+{
+  "events": [
+    {
+      "Timestamp": "2021-03-21T10:25:32.5505666+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 2.1560 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 2.156,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "80000812-0006-f800-b63f-84710c7967bb",
+        "SpanId": "|478ab71d-48fb709e612eba23.",
+        "TraceId": "478ab71d-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 9,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "2.1560"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.5762487+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.7517 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.7517,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "80000813-0006-f800-b63f-84710c7967bb",
+        "SpanId": "|478ab71e-48fb709e612eba23.",
+        "TraceId": "478ab71e-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 7,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.7517"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.5816248+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.9449 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.9449,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "80000088-0001-ef00-b63f-84710c7967bb",
+        "SpanId": "|478ab720-48fb709e612eba23.",
+        "TraceId": "478ab720-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 8,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.9449"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.5819099+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 1.2348 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 1.2348,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "80000445-0004-e700-b63f-84710c7967bb",
+        "SpanId": "|478ab71f-48fb709e612eba23.",
+        "TraceId": "478ab71f-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 7,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "1.2348"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.5819537+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.5068 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.5068,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "800001c4-0001-ee00-b63f-84710c7967bb",
+        "SpanId": "|478ab721-48fb709e612eba23.",
+        "TraceId": "478ab721-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 9,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.5068"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.5851287+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.3801 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.3801,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "80000814-0006-f800-b63f-84710c7967bb",
+        "SpanId": "|478ab722-48fb709e612eba23.",
+        "TraceId": "478ab722-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 8,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.3801"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.5957217+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 6.3678 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 6.3678,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "800002da-0005-eb00-b63f-84710c7967bb",
+        "SpanId": "|478ab723-48fb709e612eba23.",
+        "TraceId": "478ab723-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 19,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "6.3678"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.5990773+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 3.4539 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 3.4539,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "80000815-0006-f800-b63f-84710c7967bb",
+        "SpanId": "|478ab724-48fb709e612eba23.",
+        "TraceId": "478ab724-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 16,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "3.4539"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.5993227+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 2.8839 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 2.8839,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "80000089-0001-ef00-b63f-84710c7967bb",
+        "SpanId": "|478ab725-48fb709e612eba23.",
+        "TraceId": "478ab725-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 8,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "2.8839"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.6231282+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.4425 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.4425,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "8000008a-0001-ef00-b63f-84710c7967bb",
+        "SpanId": "|478ab726-48fb709e612eba23.",
+        "TraceId": "478ab726-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 16,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.4425"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.6431068+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.4105 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.4105,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "8000008b-0001-ef00-b63f-84710c7967bb",
+        "SpanId": "|478ab727-48fb709e612eba23.",
+        "TraceId": "478ab727-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 4,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.4105"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.6449115+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.2896 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.2896,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "8000008c-0001-ef00-b63f-84710c7967bb",
+        "SpanId": "|478ab728-48fb709e612eba23.",
+        "TraceId": "478ab728-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 4,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.2896"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.6620549+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.4148 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.4148,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "8000008d-0001-ef00-b63f-84710c7967bb",
+        "SpanId": "|478ab729-48fb709e612eba23.",
+        "TraceId": "478ab729-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 8,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.4148"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.6680862+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.3526 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.3526,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "8000008e-0001-ef00-b63f-84710c7967bb",
+        "SpanId": "|478ab72a-48fb709e612eba23.",
+        "TraceId": "478ab72a-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 4,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.3526"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.6850949+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.3263 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.3263,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "8000008f-0001-ef00-b63f-84710c7967bb",
+        "SpanId": "|478ab72b-48fb709e612eba23.",
+        "TraceId": "478ab72b-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 4,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.3263"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.6950900+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.4464 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.4464,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "80000090-0001-ef00-b63f-84710c7967bb",
+        "SpanId": "|478ab72c-48fb709e612eba23.",
+        "TraceId": "478ab72c-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 18,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.4464"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.7253342+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.4685 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.4685,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "80000091-0001-ef00-b63f-84710c7967bb",
+        "SpanId": "|478ab72d-48fb709e612eba23.",
+        "TraceId": "478ab72d-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 18,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.4685"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.7256601+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.3623 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.3623,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "80000816-0006-f800-b63f-84710c7967bb",
+        "SpanId": "|478ab72e-48fb709e612eba23.",
+        "TraceId": "478ab72e-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 4,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.3623"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.7326979+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.4347 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.4347,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "80000092-0001-ef00-b63f-84710c7967bb",
+        "SpanId": "|478ab72f-48fb709e612eba23.",
+        "TraceId": "478ab72f-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 8,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.4347"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.7363257+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.5788 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.5788,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "80000093-0001-ef00-b63f-84710c7967bb",
+        "SpanId": "|478ab730-48fb709e612eba23.",
+        "TraceId": "478ab730-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 18,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.5788"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.7445198+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.4216 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.4216,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "80000094-0001-ef00-b63f-84710c7967bb",
+        "SpanId": "|478ab731-48fb709e612eba23.",
+        "TraceId": "478ab731-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 16,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.4216"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.7470176+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.3410 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.341,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "80000095-0001-ef00-b63f-84710c7967bb",
+        "SpanId": "|478ab732-48fb709e612eba23.",
+        "TraceId": "478ab732-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 8,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.3410"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.7539836+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.3323 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.3323,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "80000096-0001-ef00-b63f-84710c7967bb",
+        "SpanId": "|478ab733-48fb709e612eba23.",
+        "TraceId": "478ab733-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 19,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.3323"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.7559467+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.3134 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.3134,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "80000817-0006-f800-b63f-84710c7967bb",
+        "SpanId": "|478ab734-48fb709e612eba23.",
+        "TraceId": "478ab734-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 4,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.3134"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.7890621+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.3506 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.3506,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "80000818-0006-f800-b63f-84710c7967bb",
+        "SpanId": "|478ab735-48fb709e612eba23.",
+        "TraceId": "478ab735-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 4,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.3506"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.8028368+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.4383 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.4383,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "80000819-0006-f800-b63f-84710c7967bb",
+        "SpanId": "|478ab736-48fb709e612eba23.",
+        "TraceId": "478ab736-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 16,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.4383"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.8117341+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.4976 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.4976,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "8000081a-0006-f800-b63f-84710c7967bb",
+        "SpanId": "|478ab737-48fb709e612eba23.",
+        "TraceId": "478ab737-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 16,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.4976"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.8200907+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.3364 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.3364,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "8000081b-0006-f800-b63f-84710c7967bb",
+        "SpanId": "|478ab738-48fb709e612eba23.",
+        "TraceId": "478ab738-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 16,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.3364"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.8220507+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.3021 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.3021,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "80000097-0001-ef00-b63f-84710c7967bb",
+        "SpanId": "|478ab739-48fb709e612eba23.",
+        "TraceId": "478ab739-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 18,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.3021"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.8378165+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.3319 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.3319,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "80000098-0001-ef00-b63f-84710c7967bb",
+        "SpanId": "|478ab73a-48fb709e612eba23.",
+        "TraceId": "478ab73a-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 18,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.3319"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.8385822+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.2842 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.2842,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "8000081c-0006-f800-b63f-84710c7967bb",
+        "SpanId": "|478ab73b-48fb709e612eba23.",
+        "TraceId": "478ab73b-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 4,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.2842"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.8598749+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.4436 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.4436,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "8000081d-0006-f800-b63f-84710c7967bb",
+        "SpanId": "|478ab73c-48fb709e612eba23.",
+        "TraceId": "478ab73c-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 19,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.4436"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.8758248+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.4680 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.468,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "8000081e-0006-f800-b63f-84710c7967bb",
+        "SpanId": "|478ab73d-48fb709e612eba23.",
+        "TraceId": "478ab73d-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 16,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.4680"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.8810550+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 1.5433 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 1.5433,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "80000099-0001-ef00-b63f-84710c7967bb",
+        "SpanId": "|478ab73e-48fb709e612eba23.",
+        "TraceId": "478ab73e-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 18,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "1.5433"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.8881862+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.9799 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.9799,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "8000009a-0001-ef00-b63f-84710c7967bb",
+        "SpanId": "|478ab73f-48fb709e612eba23.",
+        "TraceId": "478ab73f-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 19,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.9799"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.8972812+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.3610 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.361,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "8000009b-0001-ef00-b63f-84710c7967bb",
+        "SpanId": "|478ab740-48fb709e612eba23.",
+        "TraceId": "478ab740-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 16,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.3610"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.9086137+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.4138 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.4138,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "8000009c-0001-ef00-b63f-84710c7967bb",
+        "SpanId": "|478ab741-48fb709e612eba23.",
+        "TraceId": "478ab741-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 8,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.4138"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.9196614+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.5241 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.5241,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "8000009d-0001-ef00-b63f-84710c7967bb",
+        "SpanId": "|478ab742-48fb709e612eba23.",
+        "TraceId": "478ab742-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 17,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.5241"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.9217974+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.3115 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.3115,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "8000081f-0006-f800-b63f-84710c7967bb",
+        "SpanId": "|478ab743-48fb709e612eba23.",
+        "TraceId": "478ab743-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 19,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.3115"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.9248184+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.3525 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.3525,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "80000820-0006-f800-b63f-84710c7967bb",
+        "SpanId": "|478ab744-48fb709e612eba23.",
+        "TraceId": "478ab744-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 4,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.3525"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.9643546+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.3085 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.3085,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "80000821-0006-f800-b63f-84710c7967bb",
+        "SpanId": "|478ab745-48fb709e612eba23.",
+        "TraceId": "478ab745-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 7,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.3085"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.9672770+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.3866 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.3866,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "8000009e-0001-ef00-b63f-84710c7967bb",
+        "SpanId": "|478ab747-48fb709e612eba23.",
+        "TraceId": "478ab747-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 4,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.3866"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.9672770+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.4016 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.4016,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "80000822-0006-f800-b63f-84710c7967bb",
+        "SpanId": "|478ab746-48fb709e612eba23.",
+        "TraceId": "478ab746-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 7,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.4016"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:32.9905814+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.4162 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.4162,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "80000823-0006-f800-b63f-84710c7967bb",
+        "SpanId": "|478ab748-48fb709e612eba23.",
+        "TraceId": "478ab748-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 7,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.4162"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:33.0056037+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.4285 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.4285,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "80000824-0006-f800-b63f-84710c7967bb",
+        "SpanId": "|478ab749-48fb709e612eba23.",
+        "TraceId": "478ab749-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 16,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.4285"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:33.0065342+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.1911 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.1911,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "8000009f-0001-ef00-b63f-84710c7967bb",
+        "SpanId": "|478ab74a-48fb709e612eba23.",
+        "TraceId": "478ab74a-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 16,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.1911"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:33.0147294+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.3459 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.3459,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "800000a0-0001-ef00-b63f-84710c7967bb",
+        "SpanId": "|478ab74b-48fb709e612eba23.",
+        "TraceId": "478ab74b-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 16,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.3459"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:33.0218207+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.4549 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.4549,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "800000a1-0001-ef00-b63f-84710c7967bb",
+        "SpanId": "|478ab74c-48fb709e612eba23.",
+        "TraceId": "478ab74c-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 4,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.4549"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:33.0308421+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.4222 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.4222,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "800000a2-0001-ef00-b63f-84710c7967bb",
+        "SpanId": "|478ab74d-48fb709e612eba23.",
+        "TraceId": "478ab74d-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 8,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.4222"
+          }
+        ]
+      }
+    },
+    {
+      "Timestamp": "2021-03-21T10:25:33.0328654+00:00",
+      "Level": "Information",
+      "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+      "RenderedMessage": "HTTP \"GET\" \"/weatherforecast\" responded 200 in 0.3992 ms",
+      "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/weatherforecast",
+        "StatusCode": 200,
+        "Elapsed": 0.3992,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "80000825-0006-f800-b63f-84710c7967bb",
+        "SpanId": "|478ab74e-48fb709e612eba23.",
+        "TraceId": "478ab74e-48fb709e612eba23",
+        "ParentId": "",
+        "MachineName": "HOSTNAME",
+        "ThreadId": 4,
+        "Application": "APPLICATION"
+      },
+      "Renderings": {
+        "Elapsed": [
+          {
+            "Format": "0.0000",
+            "Rendering": "0.3992"
+          }
+        ]
+      }
+    }
+  ]
+}
